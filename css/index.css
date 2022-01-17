@@ -86,6 +86,7 @@ section {
 
 .inner_section img {
   padding-left: 20px;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -111,6 +112,7 @@ figcaption {
   color: #ff0000;
   font: 16px "Quicksand";
   font-style: italic;
+  padding-bottom: 5px;
 }
   
 figure {
