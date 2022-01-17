@@ -1,0 +1,130 @@
+/*css reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/*custom CSS */
+html {
+  background-image: url(../images/clouds_background.jpg);
+}
+
+p {
+  font: 16px "Quicksand";
+}
+
+body {
+  width: 80%;
+  margin: 3% auto;
+}
+
+header {
+  background-color: #133f5f;
+  padding: 10px 0;
+}
+
+header h1 {
+  font: 36px "Fugaz One";
+  color: #fffafa;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+nav {
+  background-color: #bdb7b7;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  font: 16px "Quicksand";
+  color: #fffafa;
+}
+
+details {
+  margin-bottom: 30px;
+}
+
+#row {
+  display: flex;
+}
+
+main {
+  width: 61%;
+  float: left;
+  background-color: #fffafa;
+  padding: 35px;
+}
+
+h2 {
+  font: 30px "Quicksand";
+  color: #b0354e;
+  border-bottom: 2px solid #b0354e;
+  margin-bottom: 30px;
+}
+
+section {
+  display: flex;
+}
+.inner_section {
+  padding: 0 10px;
+}
+
+.inner_section img {
+  padding-left: 20px;
+}
+
+h3 {
+  font: 24px "Quicksand";
+  margin-bottom: 10px;
+}
+
+aside {
+  width: 30%;
+  float: left;
+  background-color: #bdb7b7;
+  padding: 31px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+aside img {
+  margin: 20px;
+}
+
+figcaption {
+  color: #ff0000;
+  font: 16px "Quicksand";
+  font-style: italic;
+}
+  
+figure {
+  display: block;
+  flex-direction: column;
+  text-align: center;
+  float: right;
+}
+
+footer {
+  clear: both;
+  background-color: #b0354e;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  color: #fffafa;
+} 
